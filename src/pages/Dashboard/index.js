@@ -39,7 +39,6 @@ export default function Dashboard({ history }) {
       io('https://sports-events-app-backend.herokuapp.com', {
         query: { user: userId },
       }),
-      // socketio('https://sports-events-app.herokuapp.com/', { query: { user: userId } })
     [userId]
   );
 
